@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mideas em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir essa imagem em varios dispositivos!</p>
+
+    <picture>
+        <source media="(max-width: 1050px)" srcset="fotos/FOTO-M.png" type="image/png">
+        <img src="fotos/FOTO-G.png" alt="Imagem Flexível">
+    </picture>
+
+<h1>Vamos aprender a produzir audios em HTML</h1>
+    <audio preload="auto" controls autoplay loop>
+        <source src="midea/musica.mp3">
+        <source src="midea/musica.ogg" type="audio.ogg">
+        <source src="midea/musica.wav" type="audio.wav">
+        <p>Infelizmente seu navegador não consegue produzir áudio <a href="midea/musica.mp3"> Clique aqui para fazer
+        o download do MP3.
+        </a></p>
+    </audio>
+    <!--MP3 WAV OGG--> 
+</body>
+</html>

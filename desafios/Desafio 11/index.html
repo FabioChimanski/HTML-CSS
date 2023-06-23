@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem sobreposta</title>
+    <style>
+        #fundo{
+            background-image: url(img/espaco.jpg);
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 100vh;
+            margin: -8px;
+            background-color: purple;
+        }
+        #astro{
+            background-image: url(img/astronauta.png);
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+<section id="fundo">
+    <article id="astro">
+
+    </article>
+</section>
+</body>
+</html>
